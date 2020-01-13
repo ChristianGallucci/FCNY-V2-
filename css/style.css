@@ -1,0 +1,171 @@
+@charset "utf-8";
+body{
+	margin-top:5%;
+}
+.jumbotron.jumbotron-fluid {
+	background-repeat: no-repeat;
+	background-size: 100% 146%;
+	background-image: url(../images/field.jpg);
+	padding-top:20%;
+	padding-bottom:18%;
+	margin-top:-5%;
+	margin-bottom:5%;
+}
+.jumbotron.jumbotron-fluid .container .display-4 {
+	color: #FFFFFF;
+}
+.jumbotron.jumbotron-fluid .container .lead {
+	color: #FFFFFF;
+}
+.jumbotron.jumbotron-fluid .container .btn.btn-primary.btn-lg {
+	margin-top: 49px;
+}
+.container-fluid .col-sm-3.col-lg-4.offset-lg-4 #player1 {
+	margin-left: 16%;
+
+}
+.col-md-4 .card .card-img-top {
+	background-color: #000000;
+}
+.container .display-4 a {
+	color: #212529;
+}
+.container .display-4 a:hover {
+	text-decoration: none;
+	color: dodgerblue;
+}
+body hr {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+
+
+/*index schedule resizing*/
+@media (max-width: 550px) {
+     .big-container {
+         display: none;
+     }
+ }
+ @media (min-width: 550px) {
+     .small-container {
+         display: none;
+     }
+ }
+
+ /* Responsive iFrame */
+ .responsive-iframe-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     padding-top: 30px;
+     height: 0;
+     overflow: hidden;
+ }
+ .responsive-iframe-container iframe,   
+ .vresponsive-iframe-container object,  
+ .vresponsive-iframe-container embed {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
+
+.text-center.col-lg-6.offset-lg-3 .copy .copy2 {
+	color: #FFA500;
+}
+.text-center.col-lg-6.offset-lg-3 .copy .copy2:hover {
+	color:white;
+	text-decoration: none;
+}
+
+.text-center.col-lg-6.offset-lg-3 .copy .copy2 {
+	tex-decoration:none;
+}
+
+
+.offset-lg-0.col-lg-12 .foot {
+	text-align: center;
+	color: #FFFFFF;
+}
+.offset-lg-0.col-lg-12 .social {
+	text-align: center;
+	color: #FFFFFF;
+}
+.offset-lg-0.col-lg-12 .foot a {
+	color: #FFA500;
+	text-decoration: none;
+}
+.offset-lg-0.col-lg-12 .foot a:hover {
+	color: white;
+	text-decoration: none;
+}
+.fa.fa-facebook-square {
+	color:darkblue;
+	text-decoration: none;
+}
+.fa.fa-facebook-square:hover {
+	color:white;
+	text-decoration: none;
+}
+.fa.fa-instagram:hover {
+	color:white;
+}
+.fa.fa-instagram {
+	color:orange;
+	text-decoration: none;
+}
+
+
+body footer {
+	background-color: #007BFF;
+}
+.offset-lg-0.col-lg-12 {
+	text-align: center;
+}
+
+
+
+.container #player {
+	text-align: center;
+}
+
+
+.nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+	background-color: #007BFF;
+	color: #FFFFFF;
+
+}
+.col-xl-5 #teamLink a:hover {
+	text-decoration: none;
+}
+.container #warning {
+	padding: 15px;
+	border: thin outset #007BFF;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-dark.bg-primary #navbarSupportedContent1 .navbar-nav.ml-auto {
+	margin-right: 10%;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px){
+.container #potw {
+	padding-left: 0px;
+	margin-left: 250px;
+}
+
+
+	
+}
+
+@media (max-width: 550px){
+.jumbotron.jumbotron-fluid {
+	padding-top: 36%;
+	padding-bottom: 35%;
+}
+
+}
