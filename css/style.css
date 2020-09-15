@@ -2,14 +2,26 @@
 body{
 	margin-top:5%;
 }
+
+.jum{
+	height: 1px;
+        background-color: #ccc;
+        border: none;
+}
 .jumbotron.jumbotron-fluid {
 	background-repeat: no-repeat;
-	background-size: 100% 146%;
-	background-image: url(../images/field.jpg);
-	padding-top:20%;
-	padding-bottom:18%;
-	margin-top:-5%;
-	margin-bottom:5%;
+	background-size: 100% 145%;
+	padding-top: 20%;
+	padding-bottom: 18%;
+	margin-top: -5%;
+	margin-bottom: 5%;
+	background-image: url(../images/jumbo.jpg);
+	
+}
+
+
+.schedT{
+	margin-top:15%;
 }
 .jumbotron.jumbotron-fluid .container .display-4 {
 	color: #FFFFFF;
@@ -20,6 +32,11 @@ body{
 .jumbotron.jumbotron-fluid .container .btn.btn-primary.btn-lg {
 	margin-top: 49px;
 }
+#teams {
+	background-image: url(../images/teams.jpg);
+	background-size: 100% 110%;
+}
+
 .container-fluid .col-sm-3.col-lg-4.offset-lg-4 #player1 {
 	margin-left: 16%;
 
@@ -27,10 +44,10 @@ body{
 .col-md-4 .card .card-img-top {
 	background-color: #000000;
 }
-.container .display-4 a {
+.sched a {
 	color: #212529;
 }
-.container .display-4 a:hover {
+.sched a:hover {
 	text-decoration: none;
 	color: dodgerblue;
 }
@@ -38,7 +55,81 @@ body hr {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+.container center .display-3 {
+	color: #FFFFFF;
+}
 
+/*contact page*/
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color:#5B8DC6;
+}
+input[type=reset]:hover {
+	background-color:#5B8DC6;
+}
+/* Style the container/contact section */
+#backg {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.log  {
+	right: 10px;
+
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
 
 
 
@@ -47,7 +138,7 @@ body hr {
      .big-container {
          display: none;
      }
- }
+}
  @media (min-width: 550px) {
      .small-container {
          display: none;
@@ -150,22 +241,191 @@ body footer {
 
 
 
+/*SCREEN SPECIFIC*/
 
 
+/*Laptop or Desktop*/
 @media (min-width: 768px) and (max-width: 992px){
 .container #potw {
 	padding-left: 0px;
 	margin-left: 250px;
+}
+.responsive-iframe-container.big-container {
+	padding-top: 35%;
+	margin-right: -4%;
+	margin-left: -4%;
+}
+#gallery center {
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+#gallery .row {
+	margin-left: 5%;
+}
+
+
+}
+
+
+/*Mobile */
+@media (min-width: 0px) and (max-width: 550px){
+.jumbotron.jumbotron-fluid {
+	background-size: 194% 123%;
+	padding-top: 60%;
+	padding-bottom: 60%;
+	background-image: url(../images/jumbo2.jpg);
+	background-position: 41% -7%;
+}
+
+
+#teams {
+	background-image: url(../images/teams.jpg);
+	background-size: 186% 92%;
+	margin-top: 42px;
+	background-position: 48% 0%;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+.gallery {
+	margin-top: 30%;
+}
+
+.responsive-iframe-container.small-container {
+	padding-top: 0px;
+	padding-bottom: 150%;
+}
+.schedT{
+	margin-top:25%;
+}	
+#gallery .row {
+	margin-left: 10%;
+}
+#gallery center {
+	margin-top: -14%;
+	margin-bottom: 7%;
 }
 
 
 	
 }
 
-@media (max-width: 550px){
-.jumbotron.jumbotron-fluid {
-	padding-top: 36%;
-	padding-bottom: 35%;
+
+/*Tablets*/
+@media (min-width: 551px) and (max-width: 767px){
+.responsive-iframe-container.big-container {
+	padding-top: 50%;
+	margin-left: -2%;
+	margin-right: -2%;
+}
+#gallery .row {
+	margin-left: 3%;
+}
+#gallery center {
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
+
+
+	
+}
+
+@media (min-width:993px){
+#gallery center {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+}
+
+/*Form CSS*/
+.header {
+	width: 40%;
+	margin: 50px auto 0px;
+	margin-top:15%;
+	color: white;
+	background: #007bff;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form, .content {
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #007bff;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.profile_info img {
+	display: inline-block; 
+	width: 50px; 
+	height: 50px; 
+	margin: 5px;
+	float: left;
+}
+.profile_info div {
+	display: inline-block; 
+	margin: 5px;
+}
+.profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*LOGIN INFO*/
+.content{
+	border-color:white;
 }

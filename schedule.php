@@ -1,29 +1,21 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <title>FCNY Soccer | Home</title>
-  </head>
-  <body>
+<?php include 'includes/header.php'; ?>
+<body>
   
 <!--Navbar-->
 <?php include 'includes/navbar.php'; ?>
 <!--Navbar end-->
 
-<div class="container">
-<div class="col-12">
-<h1 class="display-4"><a href="includes/schedule.html">Schedule</a></h1>
+<div class="container" id="scd">
+	<center><h1 class="schedT">Schedule</h1></center>
 	<br>
      <div class="responsive-iframe-container big-container">
- 		<iframe src="https://calendar.google.com/calendar/embed?src=dl8rccs9b8o6s91o1fkgkdnu50%40group.calendar.google.com&ctz=America%2FNew_York" style="border-width:0" width="100%" height="650" frameborder="0" scrolling="no"></iframe>
+ 		<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=NG5sZDkzZzB0aThhYnUzb2dqcnVrcDV0MGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YmhjbzVtajJkYmkzdG9vZ3QzcWgzbjhuMDhxdTQwNXVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%233F51B5&amp;color=%23009688" style="border-width:0" width="100%" height="650" frameborder="0" scrolling="no"></iframe>
     </div>
+	  <div class="responsive-iframe-container small-container">
+ 		<iframe src="https://calendar.google.com/calendar/embed?height=800&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=NG5sZDkzZzB0aThhYnUzb2dqcnVrcDV0MGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YmhjbzVtajJkYmkzdG9vZ3QzcWgzbjhuMDhxdTQwNXVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%233F51B5&amp;color=%23009688&amp;mode=AGENDA" style="border-width:0" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
+	</div>
 	</div>
 </div>
 	  

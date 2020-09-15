@@ -1,7 +1,7 @@
 <!--Footer-->
 <footer style="margin-top:5%;">
 <div class="offset-lg-0 col-lg-12" container>
-   <p class="foot">Copyright &copy; 2019 &middot; All Rights Reserved &middot; <a href="https://christiangallucci.github.io/Portfolio/index.html">Christian Gallucci</a></p>
+   <p class="foot">Copyright &copy; 2020 &middot; All Rights Reserved &middot; <a href="https://christiangallucci.github.io/Portfolio/index.html">Christian Gallucci</a></p>
    <p class="social">Follow us at:</p>
 </div>
 <div class="offset-lg-0 col-lg-12" container>
