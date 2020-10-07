@@ -11,6 +11,16 @@
 	<center><h1 class="schedT">Schedule</h1></center>
 	<br>
      <div class="responsive-iframe-container big-container">
+ 		<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Y29tY2VlcTBjdWtpbGJwdGZjMHVrbzE5b2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YmhjbzVtajJkYmkzdG9vZ3QzcWgzbjhuMDhxdTQwNXVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23A79B8E&amp;color=%23009688&amp;mode=AGENDA" style="border-width:0" width="100%" height="650" frameborder="0" scrolling="no"></iframe>
+    </div>
+	  <div class="responsive-iframe-container small-container">
+ 		<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Y29tY2VlcTBjdWtpbGJwdGZjMHVrbzE5b2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YmhjbzVtajJkYmkzdG9vZ3QzcWgzbjhuMDhxdTQwNXVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23A79B8E&amp;color=%23009688&amp;mode=AGENDA" style="border-width:0" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
+	</div>
+	</div>
+</div>
+<div class="container" id="scd">
+	<br>
+     <div class="responsive-iframe-container big-container">
  		<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=NG5sZDkzZzB0aThhYnUzb2dqcnVrcDV0MGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YmhjbzVtajJkYmkzdG9vZ3QzcWgzbjhuMDhxdTQwNXVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%233F51B5&amp;color=%23009688" style="border-width:0" width="100%" height="650" frameborder="0" scrolling="no"></iframe>
     </div>
 	  <div class="responsive-iframe-container small-container">
@@ -18,7 +28,6 @@
 	</div>
 	</div>
 </div>
-	  
 <!--Footer-->
 <?php include 'includes/footer.php'; ?>
 <!--end of footer-->
