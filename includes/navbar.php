@@ -18,6 +18,7 @@ function echoActiveClassIfRequestMatches($requestUri)
 	  		<li <?=echoActiveClassIfRequestMatches("schedule")?>> <a class="nav-link" href="schedule.php"  target=”_blank”>Schedule</a></li>
 			<li <?=echoActiveClassIfRequestMatches("teams")?>> <a class="nav-link" href="teams.php"  target=”_blank”>Teams</a></li>
 			<li <?=echoActiveClassIfRequestMatches("gallery")?>> <a class="nav-link" href="gallery.php"  target=”_blank”>Gallery</a></li>
+			<li <?=echoActiveClassIfRequestMatches("download")?>> <a class="nav-link" href="download.php"  target=”_blank”>Forms</a></li>
 			<!--<li <?=echoActiveClassIfRequestMatches("contact")?>> <a class="nav-link" href="contact.php"  target=”_blank”>Contact</a></li>-->
 			<!--<li <?=echoActiveClassIfRequestMatches("store")?>> <a class="nav-link" href="http://fcnysoccer.club/presta/"  target=”_blank”>Store</a></li>-->
 			<li class="nav-item dropdown">
